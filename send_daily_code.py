@@ -6,9 +6,11 @@ from datetime import datetime
 # TELEGRAM CONFIG
 # ==========================================
 
-TOKEN = "REAL_TOKEN"
+import os
 
-CHAT_ID = "REAL_CHAT_ID"
+TOKEN = os.getenv("TOKEN")
+
+CHAT_ID = os.getenv("CHAT_ID")
 
 
 # ==========================================

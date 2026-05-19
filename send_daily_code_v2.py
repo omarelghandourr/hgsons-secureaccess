@@ -34,9 +34,10 @@ from datetime import datetime
 # TELEGRAM CONFIG
 # =========================================================
 
-TOKEN = "8547343516:AAGdg9XcGiEW_YUbw4vY5Ol2SMjQVgQCOk0"
+import os
 
-CHAT_ID = "-1003738806795"
+TOKEN = os.getenv("TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 
 # =========================================================

@@ -1,4 +1,8 @@
 """
+
+008 6 digit daily code + Telegram (Arabic).py
+
+
 =========================================================
 HGsons Daily Telegram Verification System
 =========================================================

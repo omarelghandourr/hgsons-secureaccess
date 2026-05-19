@@ -6,9 +6,9 @@ from datetime import datetime
 # TELEGRAM CONFIG
 # ==========================================
 
-TOKEN = "8547343516:AAGdg9XcGiEW_YUbw4vY5Ol2SMjQVgQCOk0"
+TOKEN = "REAL_TOKEN"
 
-CHAT_ID = "-1003738806795"
+CHAT_ID = "REAL_CHAT_ID"
 
 
 # ==========================================

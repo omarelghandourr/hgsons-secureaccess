@@ -26,15 +26,14 @@ Designed for:
 """
 
 import requests
-
 from datetime import datetime
-
+from zoneinfo import ZoneInfo
+import os
 
 # =========================================================
 # TELEGRAM CONFIG
 # =========================================================
 
-import os
 
 TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
@@ -133,7 +132,11 @@ def send_message(message):
 # MAIN
 # =========================================================
 
-today = datetime.today()
+
+today = datetime.now(
+    ZoneInfo("Africa/Cairo")
+)
+
 
 daily_code = generate_daily_code(today)
 

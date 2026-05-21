@@ -1,9 +1,10 @@
+
 name: HGsons Daily Security Bot
 
 on:
 
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '1 21 * * *'
 
   workflow_dispatch:
 

@@ -27,7 +27,10 @@ This creates an additional layer of operational security for local business soft
 
 ---
 
+
 # System Architecture
+
+```text
 
 +------------------------+
 |  GitHub Actions /      |
@@ -49,7 +52,7 @@ This creates an additional layer of operational security for local business soft
 | Microsoft Access App   |
 | (VBA Validation)       |
 +------------------------+
-
+```
 ---
 
 # Main Features
@@ -180,6 +183,7 @@ Please use this code to access the system.
 ---
 
 # Repository Structure
+```text
 
 hgsons-security-bot/
 │
@@ -202,7 +206,7 @@ hgsons-security-bot/
 ├── README.md
 │
 └── LICENSE
-
+```
 ---
 
 # Security Notes

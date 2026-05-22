@@ -141,10 +141,10 @@ today = datetime.now(
 daily_code = generate_daily_code(today)
 
 message = (
-    "====================================\n"
+    "============================\n"
     "HGsons Security Verification System\n"
     "نظام التحقق الأمني - شركه اولاد حسنى الغندور\n"
-    "====================================\n\n"
+    "============================\n\n"
 
     "Daily Verification Code\n"
     "الشفره اليومية\n\n"
@@ -158,18 +158,18 @@ message = (
     "Please do not share this code.\n"
     "يرجى عدم مشاركة هذه الشفره.\n\n"
 
-    "===================================="
+    "============================"
 )
 
 send_message(message)
 
-print("===================================")
+print("===========================")
 print("HGsons Daily Verification System")
-print("===================================")
+print("===========================")
 
 print("Today's Date :", today.strftime("%d-%m-%Y"))
 print("Today's Code :", daily_code)
 
-print("===================================")
+print("===========================")
 
 print("Daily code sent successfully.")

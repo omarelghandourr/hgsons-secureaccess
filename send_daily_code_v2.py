@@ -37,7 +37,8 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
-
+SECRET_KEY = os.getenv("SECRET_KEY")
+CHAOS_MULTIPLIER = int(os.getenv("CHAOS_MULTIPLIER"))
 
 # =========================================================
 # DAILY CODE GENERATOR
@@ -45,7 +46,7 @@ CHAT_ID = os.getenv("CHAT_ID")
 
 def generate_daily_code(
     date_input,
-    secret="HGsons2026"
+    secret
 ):
 
     # =====================================================
@@ -88,7 +89,7 @@ def generate_daily_code(
 
         seed = (
             (
-                (seed * 399)
+                (seed * CHAOS_MULTIPLIER)
                 ^ (seed // 7)
             )
             + 12345
@@ -138,7 +139,10 @@ today = datetime.now(
 )
 
 
-daily_code = generate_daily_code(today)
+daily_code = generate_daily_code(
+    today,
+    SECRET_KEY
+)
 
 message = (
     "============================\n"

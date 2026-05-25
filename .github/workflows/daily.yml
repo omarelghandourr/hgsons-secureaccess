@@ -33,4 +33,4 @@ jobs:
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
           CHAOS_MULTIPLIER: ${{ secrets.CHAOS_MULTIPLIER }}
 
-        run: python send_daily_code_v2.py
+        run: python send_daily_code_v3.py

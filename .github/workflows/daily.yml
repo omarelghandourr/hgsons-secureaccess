@@ -34,5 +34,6 @@ jobs:
           CHAOS_MULTIPLIER: ${{ secrets.CHAOS_MULTIPLIER }}
           ACTIVATION_DATE: ${{ secrets.ACTIVATION_DATE }}
           PERMANENT_PASSWORD: ${{ secrets.PERMANENT_PASSWORD }}
+          PRIVATE_CHAT_ID: ${{ secrets.PRIVATE_CHAT_ID }}
 
         run: python send_daily_code_v3.py

@@ -24,6 +24,8 @@ Designed for:
 - Daily authentication systems
 - Offline business verification systems
 
+Format!
+ACTIVATION_DATE = 2026-08-01
 =========================================================
 """
 

@@ -205,7 +205,7 @@ if days_since_activation > 58:
         "The 58-day activation period has ended.\n"
         "انتهت فترة التفعيل البالغة 58 يومًا.\n\n"
 
-        "V3.0\n"
+        "V4.0\n"
 
         "============================"
     )
@@ -251,7 +251,7 @@ else:
         "Please do not share this code.\n"
         "يرجى عدم مشاركة هذه الشفره.\n\n"
 
-        "V3.0\n"
+        "V4.0\n"
 
         "============================"
     )

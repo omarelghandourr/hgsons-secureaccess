@@ -39,7 +39,6 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
-PRIVATE_CHAT_ID = os.getenv("PRIVATE_CHAT_ID")
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 CHAOS_MULTIPLIER = int(os.getenv("CHAOS_MULTIPLIER"))
@@ -241,7 +240,7 @@ if days_since_activation > 58:
 
     send_message(
         message,
-        PRIVATE_CHAT_ID
+        CHAT_ID
     )
 
     print("58-day period has expired.")

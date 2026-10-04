@@ -32,5 +32,7 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
           CHAOS_MULTIPLIER: ${{ secrets.CHAOS_MULTIPLIER }}
+          ACTIVATION_DATE: ${{ secrets.ACTIVATION_DATE }}
+          PERMANENT_PASSWORD: ${{ secrets.PERMANENT_PASSWORD }}
 
-        run: python send_daily_code_v3.py
+        run: python send_daily_code_v4.py

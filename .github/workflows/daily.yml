@@ -35,4 +35,4 @@ jobs:
           ACTIVATION_DATE: ${{ secrets.ACTIVATION_DATE }}
           PERMANENT_PASSWORD: ${{ secrets.PERMANENT_PASSWORD }}
 
-        run: python send_daily_code_v3.py
+        run: python send_daily_code_v4.py

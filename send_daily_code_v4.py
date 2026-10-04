@@ -185,29 +185,54 @@ print("===========================")
 if days_since_activation > 58:
 
     message = (
-        "============================\n"
-        "HGsons Security Verification System\n"
-        "نظام التحقق الأمني - شركه اولاد حسنى الغندور\n"
-        "============================\n\n"
+        "========================================\n"
+        "HGSONS SECURITY SYSTEM\n"
+        "نظام الأمان والتحقق - شركه اولاد حسنى الغندور\n"
+        "========================================\n\n"
 
-        "Permanent Access Password\n"
-        "كلمة المرور الدائمة\n\n"
+        " PERMANENT ACCESS CREDENTIAL\n"
+        " بيانات الدخول الدائمة\n\n"
 
-        f"Password / كلمة المرور :\n"
-        f"{PERMANENT_PASSWORD}\n\n"
+        "The activation period for this system has expired.\n"
+        "انتهت فترة التفعيل الخاصة بهذا النظام.\n\n"
+
+        "Your permanent access password is:\n"
+        "كلمة المرور الدائمة الخاصة بك هي:\n\n"
+
+        f" {PERMANENT_PASSWORD}\n\n"
+
+        "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+
+        "IMPORTANT NOTICE\n"
+        "تنبيه هام جدًا\n\n"
+
+        "Please SAVE this message immediately.\n"
+        "يرجى حفظ هذه الرسالة فورًا.\n\n"
+
+        "This message will be automatically deleted "
+        "after 24 hours.\n"
+        "سيتم حذف هذه الرسالة تلقائيًا بعد 24 ساعة.\n\n"
+
+        "Once deleted, this password will NOT be "
+        "available from this message again.\n"
+        "بعد حذف الرسالة، لن تكون كلمة المرور متاحة "
+        "مرة أخرى من خلال هذه الرسالة.\n\n"
+
+        "Please store the password in a secure location.\n"
+        "يرجى الاحتفاظ بكلمة المرور في مكان آمن.\n\n"
 
         f"Activation Date : "
-        f"{activation_date.strftime('%d-%m-%Y')}\n\n"
+        f"{activation_date.strftime('%d-%m-%Y')}\n"
 
         f"Days Since Activation : "
         f"{days_since_activation}\n\n"
 
-        "The 58-day activation period has ended.\n"
-        "انتهت فترة التفعيل البالغة 58 يومًا.\n\n"
+        "AUTHORIZED PERMANENT ACCESS\n"
+        "دخول دائم مصرح به\n\n"
 
         "V4.0\n"
 
-        "============================"
+        "========================================"
     )
 
     # =====================================================

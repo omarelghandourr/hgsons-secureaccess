@@ -39,6 +39,9 @@ TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 SECRET_KEY = os.getenv("SECRET_KEY")
 CHAOS_MULTIPLIER = int(os.getenv("CHAOS_MULTIPLIER"))
+ACTIVATION_DATE = os.getenv("ACTIVATION_DATE")
+PERMANENT_PASSWORD = os.getenv("PERMANENT_PASSWORD")
+
 
 # =========================================================
 # DAILY CODE GENERATOR

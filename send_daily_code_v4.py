@@ -183,81 +183,81 @@ print("===========================")
 
 if days_since_activation > 58:
 
-message = (
-    "========================================\n"
-    "HGSONS SECURITY SYSTEM\n"
-    "========================================\n\n"
-
-    "PERMANENT ACCESS CREDENTIAL\n\n"
-
-    "The activation period for this system has expired.\n\n"
-
-    "Your permanent access password is:\n\n"
-
-    f"{PERMANENT_PASSWORD}\n\n"
-
-    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-
-    "IMPORTANT NOTICE\n\n"
-
-    "Please SAVE this message immediately.\n\n"
-
-    "This message will be automatically deleted "
-    "after 24 hours.\n\n"
-
-    "Once deleted, this password will NOT be "
-    "available from this message again.\n\n"
-
-    "Please store the password in a secure location.\n\n"
-
-    f"Activation Date: "
-    f"{activation_date.strftime('%d-%m-%Y')}\n"
-
-    f"Days Since Activation: "
-    f"{days_since_activation}\n\n"
-
-    "AUTHORIZED PERMANENT ACCESS\n\n"
-
-    "----------------------------------------\n"
-    "العربية\n"
-    "----------------------------------------\n\n"
-
-    "نظام الأمان والتحقق\n"
-    "شركه اولاد حسنى الغندور\n\n"
-
-    "بيانات الدخول الدائمة\n\n"
-
-    "انتهت فترة التفعيل الخاصة بهذا النظام.\n\n"
-
-    "كلمة المرور الدائمة الخاصة بك هي:\n\n"
-
-    f"{PERMANENT_PASSWORD}\n\n"
-
-    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-
-    "تنبيه هام جدًا\n\n"
-
-    "يرجى حفظ هذه الرسالة فورًا.\n\n"
-
-    "سيتم حذف هذه الرسالة تلقائيًا بعد 24 ساعة.\n\n"
-
-    "بعد حذف الرسالة، لن تكون كلمة المرور متاحة "
-    "مرة أخرى من خلال هذه الرسالة.\n\n"
-
-    "يرجى الاحتفاظ بكلمة المرور في مكان آمن.\n\n"
-
-    f"تاريخ التفعيل: "
-    f"{activation_date.strftime('%d-%m-%Y')}\n"
-
-    f"عدد الأيام منذ التفعيل: "
-    f"{days_since_activation}\n\n"
-
-    "دخول دائم مصرح به\n\n"
-
-    "V4.0\n"
-
-    "========================================"
-)
+   message = (
+       "========================================\n"
+       "HGSONS SECURITY SYSTEM\n"
+       "========================================\n\n"
+   
+       "PERMANENT ACCESS CREDENTIAL\n\n"
+   
+       "The activation period for this system has expired.\n\n"
+   
+       "Your permanent access password is:\n\n"
+   
+       f"{PERMANENT_PASSWORD}\n\n"
+   
+       "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+   
+       "IMPORTANT NOTICE\n\n"
+   
+       "Please SAVE this message immediately.\n\n"
+   
+       "This message will be automatically deleted "
+       "after 24 hours.\n\n"
+   
+       "Once deleted, this password will NOT be "
+       "available from this message again.\n\n"
+   
+       "Please store the password in a secure location.\n\n"
+   
+       f"Activation Date: "
+       f"{activation_date.strftime('%d-%m-%Y')}\n"
+   
+       f"Days Since Activation: "
+       f"{days_since_activation}\n\n"
+   
+       "AUTHORIZED PERMANENT ACCESS\n\n"
+   
+       "----------------------------------------\n"
+       "العربية\n"
+       "----------------------------------------\n\n"
+   
+       "نظام الأمان والتحقق\n"
+       "شركه اولاد حسنى الغندور\n\n"
+   
+       "بيانات الدخول الدائمة\n\n"
+   
+       "انتهت فترة التفعيل الخاصة بهذا النظام.\n\n"
+   
+       "كلمة المرور الدائمة الخاصة بك هي:\n\n"
+   
+       f"{PERMANENT_PASSWORD}\n\n"
+   
+       "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+   
+       "تنبيه هام جدًا\n\n"
+   
+       "يرجى حفظ هذه الرسالة فورًا.\n\n"
+   
+       "سيتم حذف هذه الرسالة تلقائيًا بعد 24 ساعة.\n\n"
+   
+       "بعد حذف الرسالة، لن تكون كلمة المرور متاحة "
+       "مرة أخرى من خلال هذه الرسالة.\n\n"
+   
+       "يرجى الاحتفاظ بكلمة المرور في مكان آمن.\n\n"
+   
+       f"تاريخ التفعيل: "
+       f"{activation_date.strftime('%d-%m-%Y')}\n"
+   
+       f"عدد الأيام منذ التفعيل: "
+       f"{days_since_activation}\n\n"
+   
+       "دخول دائم مصرح به\n\n"
+   
+       "V4.0\n"
+   
+       "========================================"
+   )
 
     # =====================================================
     # SEND PERMANENT PASSWORD PRIVATELY
@@ -282,44 +282,44 @@ else:
         SECRET_KEY
     )
 
-message = (
-    "========================================\n"
-    "HGSONS SECURITY VERIFICATION SYSTEM\n"
-    "========================================\n\n"
-
-    "DAILY VERIFICATION CODE\n\n"
-
-    f"Date: "
-    f"{today.strftime('%d-%m-%Y')}\n\n"
-
-    "Security Code:\n\n"
-
-    f"{daily_code}\n\n"
-
-    "Please do not share this code.\n\n"
-
-    "----------------------------------------\n"
-    "العربية\n"
-    "----------------------------------------\n\n"
-
-    "نظام الأمان والتحقق\n"
-    "شركه اولاد حسنى الغندور\n\n"
-
-    "الشفره اليومية\n\n"
-
-    f"التاريخ: "
-    f"{today.strftime('%d-%m-%Y')}\n\n"
-
-    "الشفره الأمنية:\n\n"
-
-    f"{daily_code}\n\n"
-
-    "يرجى عدم مشاركة هذه الشفره.\n\n"
-
-    "V4.0\n"
-
-    "========================================"
-)
+   message = (
+       "========================================\n"
+       "HGSONS SECURITY VERIFICATION SYSTEM\n"
+       "========================================\n\n"
+   
+       "DAILY VERIFICATION CODE\n\n"
+   
+       f"Date: "
+       f"{today.strftime('%d-%m-%Y')}\n\n"
+   
+       "Security Code:\n\n"
+   
+       f"{daily_code}\n\n"
+   
+       "Please do not share this code.\n\n"
+   
+       "----------------------------------------\n"
+       "العربية\n"
+       "----------------------------------------\n\n"
+   
+       "نظام الأمان والتحقق\n"
+       "شركه اولاد حسنى الغندور\n\n"
+   
+       "الشفره اليومية\n\n"
+   
+       f"التاريخ: "
+       f"{today.strftime('%d-%m-%Y')}\n\n"
+   
+       "الشفره الأمنية:\n\n"
+   
+       f"{daily_code}\n\n"
+   
+       "يرجى عدم مشاركة هذه الشفره.\n\n"
+   
+       "V4.0\n"
+   
+       "========================================"
+   )
     send_message(
         message,
         CHAT_ID
